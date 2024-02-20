@@ -44,13 +44,3 @@ sh -c "$(https://raw.githubusercontent.com/AriTheFirst/BreezeEnhancedCatppuccin/
 ```
 
 After the intallation, restart KWin by logging out and in. Then, BreezeEnhanced will appear in *System Settings &rarr; Application Style &rarr; Window Decorations*.
-
-## Screenshots:
-
-![Settings](screenshots/Settings.png?raw=true "Settings")
-
-![Exception](screenshots/Exception.png?raw=true "Exception")
-
-![Buttons](screenshots/Buttons.png?raw=true "Buttons")
-
-![Animation](screenshots/Animation.gif?raw=true "Animation")
