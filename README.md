@@ -36,6 +36,13 @@ cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LI
 make
 sudo make install
 ```
+
+or 
+
+```sh
+sh -c "$(https://raw.githubusercontent.com/AriTheFirst/BreezeEnhancedCatppuccin/main/installer.sh)"
+```
+
 After the intallation, restart KWin by logging out and in. Then, BreezeEnhanced will appear in *System Settings &rarr; Application Style &rarr; Window Decorations*.
 
 ## Screenshots:
