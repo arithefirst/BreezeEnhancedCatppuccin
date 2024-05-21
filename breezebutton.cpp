@@ -959,9 +959,9 @@ namespace Breeze
                 if( type() == DecorationButtonType::Close )
                 {
                     if (qGray(d->titleBarColor().rgb()) > 100)
-                        col = QColor(254, 95, 87);
+                        col = QColor(243, 139, 168);
                     else
-                        col = QColor(240, 96, 97);
+                        col = QColor(243, 139, 168);
                 }
                 else if( type() == DecorationButtonType::Maximize)
                 {
