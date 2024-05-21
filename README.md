@@ -29,7 +29,12 @@ Needless to say, the main work behind BreezeEnhanced is the Breeze KWin decorati
 
 In what follows, it is supposed that the name of the installation directory of KDE libraries is `lib` and the installation prefix is `/usr`. If they are different in your distro, please replace them!
 
-Open a terminal inside the source directory and do:
+Open your terinal and run:
+```sh
+bash <(curl -s https://raw.githubusercontent.com/arithefirst/BreezeEnhancedCatppuccin/main/build.sh)
+```
+If you prefer a manual installation, clone this repository, open a terminal inside the source directory and run the following.
+
 ```sh
 mkdir build && cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
