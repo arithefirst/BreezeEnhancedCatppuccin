@@ -54,29 +54,22 @@ if check_debian_based_system; then
     sudo apt install git extra-cmake-modules -y
 elif check_arch_based_system; then
     echo "Running on Arch-based system."
-    sudo pacman -Syu --noconfirm git extra-cmake-modules
+    sudo pacman -S --noconfirm git extra-cmake-modules
 else
     echo "Running on non-Debian and non-Arch system. Please install git and extra-cmake-modules using your distribution's package manager."
     read -p "Did you install git and extra-cmake-modules? (y/n): " manual_install
     case "$manual_install" in
         [Yy]* )
-            install_packages="true"
             ;;
         [Nn]* )
             echo "Installation aborted due to missing dependencies."
             exit 1
             ;;
         * )
-            echo "Invalid input. Installation will proceed."
-            install_packages="true"
+            echo "Invalid input. Installation aborted."
+            exit 1
             ;;
     esac
-fi
-
-if $install_packages; then
-    echo "Installing git and extra-cmake-modules using your distribution's package manager."
-    # Replace the following line with the actual command for your distribution
-    sudo apt install git extra-cmake-modules -y
 fi
 
 cd ~/
