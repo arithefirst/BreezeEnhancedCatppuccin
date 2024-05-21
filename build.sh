@@ -1,5 +1,5 @@
 function confirm_continue() {
-    read -p "Continue? (y/n): " answer
+    read -p "Install BreezeEnhanced Catppuccin Edition? (y/n): " answer
     case "$answer" in
         [Yy]* )
             echo "Installing BreezeEnhancedCatppuccin"
