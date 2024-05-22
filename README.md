@@ -15,7 +15,6 @@ BreezeEnhanced is a fork of KDE Breeze decoration with the following changes:
  * Opaqueness, opacity override and flatness are added to the exception list properties.
  * Title-bar font is set indpendent from the KDE font settings (for use outside KDE).
 
-Please note that BreezeEnhanced is not related to the Breeze widget style. In fact, it is made to match various themes of the [Kvantum](https://github.com/tsujan/Kvantum) widget style but it works with all styles.
 
 ## Credits:
 
@@ -49,5 +48,5 @@ After the intallation, restart KWin by logging out and in. Then, BreezeEnhanced 
 
 ![Buttons](screenshots/Buttons.png?raw=true "Buttons")
 
-Mocha Buttons Example:
+Mocha Buttons Example: <br>
 ![Animation](screenshots/Animation.gif?raw=true "Animation")
