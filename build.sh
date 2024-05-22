@@ -69,7 +69,7 @@ esac
 # Pull Git Repo
 cd ~/
 git clone https://github.com/arithefirst/BreezeEnhancedCatppuccin
-cd BreezeEnhancedCatppuccin
+ls
 
 # Use the select statement to display the menu and get user input
 echo ""
@@ -80,7 +80,7 @@ do
     case $opt in
         Latte)
             echo "You selected Latte."
-            cd Latte
+            cd ~/BreezeEnhancedCatppuccin/Latte
             echo "Installing...."
             echo ""
             mkdir build && cd build
@@ -90,7 +90,7 @@ do
             break ;;
         Frappé)
             echo "You selected Frappé."
-            cd Frappé
+            cd ~/BreezeEnhancedCatppuccin/Frappe
             echo "Installing...."
             echo ""
             mkdir build && cd build
@@ -100,7 +100,7 @@ do
             break ;;
         Macchiato)
             echo "You selected Macchiato."
-            cd Macchiato
+            cd ~/BreezeEnhancedCatppuccin/Macchiato
             echo "Installing...."
             echo ""
             mkdir build && cd build
@@ -110,7 +110,7 @@ do
             break ;;
         Mocha)
             echo "You selected Mocha."
-            cd Mocha
+            cd ~/BreezeEnhancedCatppuccin/Mocha
             echo "Installing...."
             echo ""
             mkdir build && cd build

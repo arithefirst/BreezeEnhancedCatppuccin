@@ -3,7 +3,7 @@
         "Description": "Catppuccin window decoration using the Breeze visual style for the Plasma Desktop",
         "EnabledByDefault": true,
         "Id": "org.kde.BreezeEnhancedCatppuccin",
-        "Name": "BreezeEnhancedCatppuccin-Macchiato",
+        "Name": "BreezeEnhancedCatppuccin",
         "ServiceTypes": [
             "org.kde.kdecoration2"
         ]

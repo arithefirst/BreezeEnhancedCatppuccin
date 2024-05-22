@@ -2,7 +2,7 @@
     "KPlugin": {
         "Description": "Catppuccin Window decoration using the Breeze visual style for the Plasma Desktop",
         "EnabledByDefault": true,
-        "Name": "BreezeEnhancedCatppuccin-Macchiato"
+        "Name": "BreezeEnhancedCatppuccin"
     },
     "X-KDE-ConfigModule": "kcm_breezeenhanced",
     "org.kde.kdecoration2": {
