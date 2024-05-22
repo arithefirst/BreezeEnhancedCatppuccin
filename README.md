@@ -39,7 +39,7 @@
 1. Open a new terminal Window
 2. `bash <(curl -s https://raw.githubusercontent.com/arithefirst/BreezeEnhancedCatppuccin/main/build.sh)`
 
-If you Prefer a manual instillation:
+If you Prefer a manual Installation:
 1. Clone this repo
 2. Enter the cloned directory, then enter the directory of the flavor you want to install
 3. Run the following in your terminal
