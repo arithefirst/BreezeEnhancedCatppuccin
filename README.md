@@ -58,7 +58,7 @@ sudo make install
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Tsujan](https://github.com/catppuccin) (Developer of Breeze Enhanced)
 
 &nbsp;
 
