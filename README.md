@@ -1,52 +1,74 @@
-# BreezeEnhancedCatppuccin
+<h3 align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	Catppuccin for <a href="https://github.com/tsujan/BreezeEnhanced">Breeze Enhanced</a>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
 
-> [!IMPORTANT]
-> This is a fork of [BreezeEnhanced](https://github.com/tsujan/BreezeEnhanced) that changes the colors of the **Close**, **Maximize** and **Minimize** buttons to match the [Catppuccin](https://github.com/catppuccin/catppuccin) color scheme. It works very well with the [Catppuccin KDE Theme](https://github.com/catppuccin/kde) and it **fixes the famous rounded corners bug (blur not respecting the rounded corners and 'leaking')**.
+<p align="center">
+	<a href="https://github.com/arithefirst/BreezeEnhancedCatppuccin/stargazers"><img src="https://img.shields.io/github/stars/arithefirst/BreezeEnhancedCatppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/arithefirst/BreezeEnhancedCatppuccin/issues"><img src="https://img.shields.io/github/issues/arithefirst/BreezeEnhancedCatppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/arithefirst/BreezeEnhancedCatppuccin/contributors"><img src="https://img.shields.io/github/contributors/arithefirst/BreezeEnhancedCatppuccin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
 
-## Overview
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
+</p>
 
-BreezeEnhanced is a fork of KDE Breeze decoration with the following changes:
+## Previews
 
- * The optional title-bar gradient is smooth and has a configurable intensity.
- * The title-bar opacity is configurable.
- * A very mild light line is added to the top of title-bar (especially for dark color schemes) and the separator between title-bar and window is removed.
- * By default, the close, minimize and maximize buttons are macOS-like and their sizes change on mouse-over when animation is enabled.
- * The spacing between buttons is configurable.
- * Opaqueness, opacity override and flatness are added to the exception list properties.
- * Title-bar font is set indpendent from the KDE font settings (for use outside KDE).
+<details>
+<summary>🌻 Latte</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
+</details>
 
+## Usage
 
-## Credits:
+1. Open a new terminal Window
+2. `bash <(curl -s https://raw.githubusercontent.com/arithefirst/BreezeEnhancedCatppuccin/main/build.sh)`
 
-BreezeEnhancedCatppuccin was created from [BreezeEnhanced](https://github.com/tsujan/BreezeEnhanced) by arithefirst.
-
-BreezeEnhanced was started by tsujan, and was created from [BreezeBlurred](https://github.com/alex47/BreezeBlurred), a former fork of Breeze with title-bar translucency and blurring.
-
-## Installation
-
-In what follows, it is supposed that the name of the installation directory of KDE libraries is `lib` and the installation prefix is `/usr`. If they are different in your distro, please replace them!
-
-Open your terinal and run:
-```sh
-bash <(curl -s https://raw.githubusercontent.com/arithefirst/BreezeEnhancedCatppuccin/main/build.sh)
-```
-If you prefer a manual installation, clone this repository, open a terminal inside the source directory and run the following.
-
+If you Prefer a manual instillation:
+1. Clone this repo
+2. Enter the cloned directory, then enter the directory of the flavor you want to install
+3. Run the following in your terminal
 ```sh
 mkdir build && cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
 make
-sudo make install
-```
-After the intallation, restart KWin by logging out and in. Then, BreezeEnhanced will appear in *System Settings &rarr; Application Style &rarr; Window Decorations*.
+sudo make install```
 
-## Screenshots:
+<!-- this section is optional -->
+## 🙋 FAQ
 
-![Settings](screenshots/Settings.png?raw=true "Settings")
+-	Q: **_"Where can I find the doc?"_**\
+	A: Run `:help theme`
 
-![Exception](screenshots/Exception.png?raw=true "Exception")
+## 💝 Thanks to
 
-![Buttons](screenshots/Buttons.png?raw=true "Buttons")
+- [Human](https://github.com/catppuccin)
 
-Mocha Buttons Example: <br>
-![Animation](screenshots/Animation.gif?raw=true "Animation")
+&nbsp;
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
+
+<p align="center">
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
