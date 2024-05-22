@@ -901,7 +901,7 @@ namespace Breeze
                     if (qGray(d->titleBarColor().rgb()) > 100)
                         col = QColor(137, 180, 250);
                     else
-                        col = QColor(137, 180, 250;
+                        col = QColor(137, 180, 250);
                 }
                 if (col.isValid())
                     return col;
@@ -987,7 +987,7 @@ namespace Breeze
                     if (qGray(d->titleBarColor().rgb()) > 100)
                         col = QColor(137, 180, 250);
                     else
-                        col = QColor(137, 180, 250;
+                        col = QColor(137, 180, 250);
                 }
                 if (col.isValid())
                     return col;
