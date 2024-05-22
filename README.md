@@ -19,11 +19,9 @@ Please note that BreezeEnhanced is not related to the Breeze widget style. In fa
 
 ## Credits:
 
-BreezeEnhancedCatppuccin was created from [BreezeEnhanced](https://github.com/tsujan/BreezeEnhanced) by tsujan.
+BreezeEnhancedCatppuccin was created from [BreezeEnhanced](https://github.com/tsujan/BreezeEnhanced) by arithefirst.
 
-BreezeEnhanced was started from [BreezeBlurred](https://github.com/alex47/BreezeBlurred), a former fork of Breeze with title-bar translucency and blurring.
-
-Needless to say, the main work behind BreezeEnhanced is the Breeze KWin decoration itself, which can be downloaded from <https://download.kde.org/stable/plasma/>.
+BreezeEnhanced was started by tsujan, and was created from [BreezeBlurred](https://github.com/alex47/BreezeBlurred), a former fork of Breeze with title-bar translucency and blurring.
 
 ## Installation
 
@@ -51,4 +49,5 @@ After the intallation, restart KWin by logging out and in. Then, BreezeEnhanced 
 
 ![Buttons](screenshots/Buttons.png?raw=true "Buttons")
 
+Mocha Buttons Example:
 ![Animation](screenshots/Animation.gif?raw=true "Animation")
