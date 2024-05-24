@@ -23,7 +23,7 @@
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
+<img src="screenshots/Frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
