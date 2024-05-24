@@ -37,8 +37,6 @@ select_install_type() {
 }
 
 # Main script execution
-check_command_exists "cmake"
-check_command_exists "git"
 
 select_install_type
 selected_option=$?
