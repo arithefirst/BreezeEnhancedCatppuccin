@@ -50,12 +50,6 @@ make
 sudo make install
 ```
 
-<!-- this section is optional -->
-## 🙋 FAQ
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
-
 ## 💝 Thanks to
 
 - [Tsujan](https://github.com/catppuccin) (Developer of Breeze Enhanced)
